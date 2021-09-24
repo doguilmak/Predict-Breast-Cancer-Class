@@ -69,7 +69,7 @@ model.add(Activation('softmax'))
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 model_history = model.fit(X, y, epochs=64, batch_size=32, validation_split=0.13)
 
-# 3.5. Plot accuracy and val_accuracy
+# 3.5. Plot test and train
 print(model_history.history.keys())
 plt.figure(figsize=(12, 12))
 sns.set_style('whitegrid')
