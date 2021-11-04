@@ -22,19 +22,35 @@ In this project, as stated in the title, results were obtained through **XGBoost
 
 ## Analysis
 
-You can find plot of test and train accuracy in ***Plot*** folder. Accuracy values and also plot can change a bit after you run the algorithm.
+You can find plot of **accuracy** and **val_accuracy** in ***Plot*** file. Accuracy values and also plot can change a bit after you run the algorithm.
 
 There were **16 missing features** that were replaced by the mean value of the column.
+
+---
+**Model of ANN**
+![acc_val](Plots/acc_val.png)
+
+**ANN Accuracy and Validation Accuracy Plot**
+![plot_model](Plots/binary_input_and_output_model.png)
+
+**ANN Prediction**
+
+> Model predicted as maligant. 
+Model predicted class as [4].
+---
+**XGBoost Prediction**
+
+> Model predicted as maligant. 
+> Model predicted class as [4.].
 
 ***Confusion Matrix(XGBoost):***
 | 72 | 3 |
 |--|--|
 | **5** | **73** |
 
-
 > **Accuracy score(XGBoost): 0.9477124183006536**
 
-> **Process took 4.556262254714966 seconds.**
+> **Process took 3.6448304653167725 seconds.**
 
 ## How to Run Code
 
@@ -54,6 +70,6 @@ Before running the code make sure that you have these libraries:
 
 If you have something to say to me please contact me: 
 
- - Twitter: [Doguilmak](https://twitter.com/Doguilmak).  
+ - Twitter: [Doguilmak](https://twitter.com/Doguilmak)
  - Mail address: doguilmak@gmail.com
  
