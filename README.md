@@ -30,7 +30,7 @@ There were **16 missing features** that were replaced by the mean value of the c
 **Model of ANN**
 
 <p align="center">
-    <img src="input_and_output_model.png"> 
+    <img src="binary_input_and_output_model.png"> 
 </p>
 
 **ANN Accuracy and Validation Accuracy Plot**
