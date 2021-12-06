@@ -16,6 +16,25 @@ This breast cancer databases was obtained from the **University of Wisconsin
 
 Dataset is downloaded from [archive.ics.uci.edu](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)) website. You can find the details of the dataset in that website and also in the ***breast-cancer-wisconsin.names*** named file. Dataset has **10 columns** and **699 rows without the header**.
 
+Attribute Information:
+
+1) ID number
+2) Diagnosis (M = malignant, B = benign)
+3-32)
+
+Ten real-valued features are computed for each cell nucleus:
+
+a) radius (mean of distances from center to points on the perimeter)
+b) texture (standard deviation of gray-scale values)
+c) perimeter
+d) area
+e) smoothness (local variation in radius lengths)
+f) compactness (perimeter^2 / area - 1.0)
+g) concavity (severity of concave portions of the contour)
+h) concave points (number of concave portions of the contour)
+i) symmetry
+j) fractal dimension ("coastline approximation" - 1)
+
 ## Methodology
 
 In this project, as stated in the title, results were obtained through **XGBoost** and **artificial neural networks** methods. 
@@ -52,9 +71,9 @@ Model predicted class as [4].
 |--|--|
 | **5** | **73** |
 
-> **Accuracy score(XGBoost): 0.9477124183006536**
+**Accuracy score(XGBoost): 0.9477124183006536**
 
-> **Process took 3.6448304653167725 seconds.**
+Process took 3.6448304653167725 seconds.
 
 ## How to Run Code
 
