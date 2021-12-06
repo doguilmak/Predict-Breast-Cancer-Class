@@ -19,7 +19,9 @@ Dataset is downloaded from [archive.ics.uci.edu](https://archive.ics.uci.edu/ml/
 Attribute Information:
 
 1) ID number
+
 2) Diagnosis (M = malignant, B = benign)
+
 3-32)
 
 Ten real-valued features are computed for each cell nucleus:
@@ -46,6 +48,7 @@ You can find plot of **accuracy** and **val_accuracy** in ***Plot*** file. Accur
 There were **16 missing features** that were replaced by the mean value of the column.
 
 ---
+
 **Model of ANN**
 
 <p align="center">
@@ -60,7 +63,9 @@ There were **16 missing features** that were replaced by the mean value of the c
 
 > Model predicted as maligant. 
 Model predicted class as [4].
+
 ---
+
 **XGBoost Prediction**
 
 > Model predicted as maligant. 
